@@ -682,7 +682,7 @@ function showResults() {
 function openMenu() { $('menu-overlay').classList.add('show'); }
 function closeMenu() { $('menu-overlay').classList.remove('show'); }
 
-['hamburger-btn', 'hamburger-quiz', 'hamburger-res', 'hamburger-eigo'].forEach(id => {
+['hamburger-btn', 'hamburger-res'].forEach(id => {
   const el = $(id);
   if (el) el.addEventListener('click', openMenu);
 });
