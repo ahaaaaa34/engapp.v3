@@ -8,5 +8,13 @@ export const WORDS = [
   { word: "sanctuary", meaning: "保護区", example: "Governments can provide funding for animal sanctuaries and zoos." },
   { word: "financial penalty", meaning: "金銭的な罰", example: "Companies who destroy animal habitats should face a financial penalty." },
   { word: "cooperate", meaning: "協力する", example: "If we all cooperate by taking these steps, we will protect our planet." },
-  { word: "trade", meaning: "取引する", example: "Governments can make it against the law to trade in endangered species." }
+  { word: "trade", meaning: "取引する", example: "Governments can make it against the law to trade in endangered species." },
+  { word: "hunting", meaning: "狩猟", example: "Endangered species are also the result of hunting and fishing." },
+  { word: "seal", meaning: "アザラシ", example: "For example, some seal species are now almost extinct because they are killed for their fur to make coats." },
+  { word: "fur", meaning: "毛皮", example: "For example, some seal species are now almost extinct because they are killed for their fur to make coats." },
+  { word: "medicine", meaning: "薬", example: "Tigers are shot to make medicine and tea from their bones." },
+  { word: "crocodile", meaning: "ワニ", example: "Crocodiles are caught to make bags and shoes." },
+  { word: "breed", meaning: "繁殖させる", example: "These protect animals from extinction by breeding more endangered animals." },
+  { word: "release", meaning: "放す、解放する", example: "Endangered animals can later be released into the wild." },
+  { word: "wild", meaning: "野生（の）", example: "Endangered animals can later be released into the wild." }
 ];
