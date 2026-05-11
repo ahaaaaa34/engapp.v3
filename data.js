@@ -106,10 +106,236 @@ const QUIZ_DATA = {
       answer: 0, source: '北里大',
       translation: '私がサンディーを2時間前に見かけたとき、彼女は図書館で勉強していた。',
       explanation: 'when以下が過去のある時点を表しているので、その時点で進行していた動作を表すように、過去進行形①was studyingを選ぶ。'
+    },
+    {
+      id: 'a03', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 03', tagClass: 'tag-a',
+      question: 'My brother ( ) beaten by me at tennis.',
+      options: ['has never been', 'never have been', 'has been never', 'have never been'],
+      answer: 0, source: '桜美林大',
+      translation: '私の兄は私にテニスで一度も負けたことがない。',
+      explanation: '現在完了の否定文で「一度も〜したことがない」という経験の否定を表す。主語はMy brotherなので①has never beenを選ぶ。'
+    },
+    {
+      id: 'a04', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 04', tagClass: 'tag-a',
+      question: "I'll wait here until you ( ).",
+      options: ['will come back', 'come back', 'are coming back', 'will have come back'],
+      answer: 1, source: '玉川大',
+      translation: 'あなたが戻ってくるまで、ここで待ちます。',
+      explanation: 'until節は時を表す副詞節なので、未来のことでも現在形を使う。②come backを選ぶ。'
+    },
+    {
+      id: 'a05', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 05', tagClass: 'tag-a',
+      question: 'You have to return the book as soon as you ( ) reading it.',
+      options: ['are finishing', 'had finished', 'will finish', 'have finished'],
+      answer: 3, source: '東京歯科大',
+      translation: '読み終えたらすぐにその本を返さなければならない。',
+      explanation: 'as soon as節は時を表す副詞節。「読み終えた」という完了を表すので現在完了形④have finishedを選ぶ。'
+    },
+    {
+      id: 'a06', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 06', tagClass: 'tag-a',
+      question: "I don't know if he ( ) us next Sunday.",
+      options: ['visit', 'will visit', 'will have visit', 'visits'],
+      answer: 1, source: '関西大',
+      translation: '彼が来週日曜日に私たちを訪ねてくるかどうかわからない。',
+      explanation: 'if節が「〜かどうか」という名詞節として使われているので、未来形②will visitを使える。'
+    },
+    {
+      id: 'a07', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 07', tagClass: 'tag-a',
+      question: 'Tom and Mary ( ) each other since childhood.',
+      options: ['are knowing', 'have known', 'are known', 'know'],
+      answer: 1, source: '松山大',
+      translation: 'トムとメアリーは子どものころからお互いを知っている。',
+      explanation: 'since childhoodがあり現在も継続。know〈状態〉を表すので現在完了形②have knownを選ぶ。'
+    },
+    {
+      id: 'a08', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 08', tagClass: 'tag-a',
+      question: 'I have just ( ) to Hakata Station to see my girlfriend off.',
+      options: ['go', 'going', 'went', 'been'],
+      answer: 3, source: '日本大',
+      translation: '彼女を見送りに博多駅に行ってきたところです。',
+      explanation: 'have just been to ～ で「〜へ行ってきたところ」という意味。④beenを選ぶ。'
+    },
+    {
+      id: 'a09', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 09', tagClass: 'tag-a',
+      question: 'My father usually ( ) home from work at 7:00 p.m.',
+      options: ['coming', 'comes', 'come', 'has come'],
+      answer: 1, source: '甲南大',
+      translation: '父はたいてい午後7時に仕事から帰ってくる。',
+      explanation: 'usuallyと現在の習慣を表す文なので、現在形②comesを選ぶ。'
+    },
+    {
+      id: 'a10', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 10', tagClass: 'tag-a',
+      question: 'At this time next Friday I ( ) in Canada.',
+      options: ['am skiing', 'have skied', 'ski', 'will be skiing'],
+      answer: 3, source: '大阪国際大',
+      translation: '来週の金曜日のこの時間、私はカナダでスキーをしているでしょう。',
+      explanation: '未来の特定時点で進行中の動作を表すので、未来進行形④will be skiingを選ぶ。'
+    },
+    {
+      id: 'a11', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 11', tagClass: 'tag-a',
+      question: '"Did you know that Albert Einstein, the famous physicist, ( ) meat?" "Yes, if my memory serves, he became a strict vegetarian one year before he died."',
+      options: ["hadn't stopped eating", 'has been stopped from eating', 'has stopped eating', 'stopped eating'],
+      answer: 3, source: 'センター試験',
+      translation: '「有名な物理学者アルベルト・アインシュタインが肉を食べるのをやめたことを知っていましたか？」「はい、記憶が正しければ、彼は亡くなる1年前に厳格な菜食主義者になりました。」',
+      explanation: 'one year before he diedという過去の一時点の出来事なので、過去形④stopped eatingを選ぶ。'
+    },
+    {
+      id: 'a12', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 12', tagClass: 'tag-a',
+      question: 'Emily was ( ) to go out when the telephone rang.',
+      options: ['about', 'close', 'for', 'used'],
+      answer: 0, source: '神奈川工業大',
+      translation: '電話が鳴ったとき、エミリーはちょうど出かけようとしていた。',
+      explanation: 'be about to doで「まさに〜しようとしているところ」という意味。①aboutを選ぶ。'
+    },
+    {
+      id: 'a13', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 13', tagClass: 'tag-a',
+      question: 'It ( ) ten years since the two companies merged.',
+      options: ['has been', 'has passed', 'is passed', 'passed'],
+      answer: 0, source: '青山学院大',
+      translation: '2社が合併してから10年になる。',
+      explanation: 'It has been ～ since ...で「...してから〜になる」という表現。①has beenを選ぶ。'
+    },
+    {
+      id: 'a14', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 14', tagClass: 'tag-a',
+      question: 'Since I forgot to pay the annual fee, this membership card ( ) last Monday.',
+      options: ['expired', 'has expired', 'has been expired', 'has been expiring'],
+      answer: 0, source: '杏林大',
+      translation: '年会費を払うのを忘れたので、このメンバーズカードは先週月曜日に期限切れになった。',
+      explanation: 'last Mondayという過去を示す表現があるので、過去形①expiredを選ぶ。'
+    },
+    {
+      id: 'a15', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 15', tagClass: 'tag-a',
+      question: 'Two months ( ) since Bob promised to pay his debt.',
+      options: ['have passed', 'pass', 'passed', 'would pass'],
+      answer: 0, source: '日本女子大',
+      translation: 'ボブが借金を払うと約束してから2ヶ月が過ぎた。',
+      explanation: 'since以下があり現在完了を使う。Two monthsが主語で①have passedを選ぶ。'
+    },
+    {
+      id: 'a16', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 16', tagClass: 'tag-a',
+      question: 'My father has been dead ( ) seven years.',
+      options: ['since', 'in', 'on', 'for'],
+      answer: 3, source: '東京工芸大',
+      translation: '父は7年間ずっと亡くなっている。',
+      explanation: '期間を表すforを使う。has been dead for seven yearsで「7年間ずっと亡くなっている状態が続いている」。④forを選ぶ。'
+    },
+    {
+      id: 'a17', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 17', tagClass: 'tag-a',
+      question: "Paul's yacht ( ) at Hawaii by the end of next March.",
+      options: ['arrived', 'has arrived', 'used to arrive', 'will have arrived'],
+      answer: 3, source: '日本大',
+      translation: 'ポールのヨットは来年3月末までにはハワイに到着しているでしょう。',
+      explanation: 'by the end of next Marchは未来の期限を示すので、未来完了形④will have arrivedを選ぶ。'
+    },
+    {
+      id: 'a18', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 18', tagClass: 'tag-a',
+      question: 'We are all tired of snow. It ( ) for four weeks now.',
+      options: ['has been snowing', 'is snowing', 'snowed', 'will be snowing'],
+      answer: 0, source: '明治大',
+      translation: '私たちは皆、雪にうんざりしています。今や4週間ずっと雪が降り続けています。',
+      explanation: 'for four weeks nowで継続を表すので、現在完了進行形①has been snowingを選ぶ。'
+    },
+    {
+      id: 'a19', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 19', tagClass: 'tag-a',
+      question: "She didn't want to go to the movies with us because she ( ) the film before.",
+      options: ['had seen', 'sees', 'was seen', 'will see'],
+      answer: 0, source: '明星大',
+      translation: '彼女は以前にその映画を見ていたので、私たちと映画を見に行きたくなかった。',
+      explanation: "過去の時点（didn't want）よりさらに前のことを表すので、過去完了①had seenを選ぶ。"
+    },
+    {
+      id: 'a20', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 20', tagClass: 'tag-a',
+      question: 'They ( ) here until quite recently.',
+      options: ['been', 'were', 'will be', 'are'],
+      answer: 1, source: '上智大',
+      translation: '彼らはつい最近までここにいた。',
+      explanation: 'until quite recentlyが過去を示すので、過去形②wereを選ぶ。'
+    },
+    {
+      id: 'a21', type: 'choice', section: 'exA', sectionName: 'Exercise A',
+      label: 'Ex. A 21', tagClass: 'tag-a',
+      question: 'His mother and father ( ) already when he showed up.',
+      options: ['are leaving', 'have been left', 'had left', 'will be leaving'],
+      answer: 2, source: '東海大',
+      translation: '彼が現れたとき、彼の母と父はすでに去っていた。',
+      explanation: '過去の時点（when he showed up）よりさらに前に去っていたことを表すので、過去完了③had leftを選ぶ。'
     }
   ],
 
-  exB: [],
+  exB: [
+    {
+      id: 'b01', type: 'error', section: 'exB', sectionName: 'Exercise B',
+      label: 'Ex. B 01', tagClass: 'tag-b',
+      question: 'We ①will notify you ②as soon as we ③will have further ④information.',
+      errorNum: 3, errorText: 'will have', correction: 'have',
+      source: '学習院大',
+      translation: 'さらに情報があり次第、お知らせします。',
+      explanation: 'as soon as節は時を表す副詞節なので、未来形は使えない。③will have → have に直す。'
+    },
+    {
+      id: 'b02', type: 'error', section: 'exB', sectionName: 'Exercise B',
+      label: 'Ex. B 02', tagClass: 'tag-b',
+      question: '①When Mr. Brown came to the school ②in 1980, Ms. Carter ③has already been teaching there ④for ten years.',
+      errorNum: 3, errorText: 'has already been teaching', correction: 'had already been teaching',
+      source: '東海大',
+      translation: 'ブラウン先生が1980年にその学校に来たとき、カーター先生はすでに10年間そこで教えていた。',
+      explanation: 'in 1980という過去の時点より前から継続していたことを表すので、③has already → had already（過去完了進行形）に直す。'
+    },
+    {
+      id: 'b03', type: 'error', section: 'exB', sectionName: 'Exercise B',
+      label: 'Ex. B 03', tagClass: 'tag-b',
+      question: '①If it ②will rain tomorrow, our athletic meet ③will ④be put off.',
+      errorNum: 2, errorText: 'will rain', correction: 'rains',
+      source: '東海大',
+      translation: 'もし明日雨が降れば、体育祭は延期されるでしょう。',
+      explanation: 'if節は条件節で未来のことでも現在形を使う。②will rain → rains に直す。'
+    },
+    {
+      id: 'b04', type: 'error', section: 'exB', sectionName: 'Exercise B',
+      label: 'Ex. B 04', tagClass: 'tag-b',
+      question: '①Many of the passengers ②have been sleeping when the pilot announced ③they were almost ④at the destination.',
+      errorNum: 2, errorText: 'have been sleeping', correction: 'were sleeping',
+      source: '麗澤大',
+      translation: 'パイロットが目的地にほぼ到着したと告げたとき、乗客の多くは眠っていた。',
+      explanation: 'when the pilot announcedという過去の時点での進行を表すので、②have been sleeping → were sleeping（過去進行形）に直す。'
+    },
+    {
+      id: 'b05', type: 'error', section: 'exB', sectionName: 'Exercise B',
+      label: 'Ex. B 05', tagClass: 'tag-b',
+      question: 'By ①the ②1890s, the movement ③has ④spread to Europe and North America.',
+      errorNum: 3, errorText: 'has', correction: 'had',
+      source: '上智大',
+      translation: '1890年代までに、その運動はヨーロッパと北米に広まっていた。',
+      explanation: 'By the 1890sという過去の時点までの完了を表すので、③has → had（過去完了）に直す。'
+    },
+    {
+      id: 'b06', type: 'error', section: 'exB', sectionName: 'Exercise B',
+      label: 'Ex. B 06', tagClass: 'tag-b',
+      question: 'For two years the play ①has been performed continuously ②at a small theater in NewYork, but then was ③turned into a Hollywood movie, ④appealing to audiences world wide.',
+      errorNum: 1, errorText: 'has been performed', correction: 'had been performed',
+      source: '中央大',
+      translation: 'その演劇は2年間ニューヨークの小さな劇場で継続的に上演されていたが、そのときハリウッド映画に転換され、世界中の観客にアピールした。',
+      explanation: 'but then was turned intoで過去の時点。それより前の継続を表すので、①has been performed → had been performed（過去完了進行形）に直す。'
+    }
+  ],
   exC: []
 };
 
